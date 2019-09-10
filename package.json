@@ -1,0 +1,27 @@
+{
+  "name": "omg-node-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microservices/node.git"
+  },
+  "author": "Matthew Hudson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/microservices/node/issues"
+  },
+  "homepage": "https://github.com/microservices/node#readme",
+  "keywords": [
+    "microservice",
+    "omg"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
