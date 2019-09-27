@@ -3,19 +3,33 @@
 ![Microservice](https://img.shields.io/badge/microservice-ready-brightgreen.svg?style=for-the-badge)
 [![Build status](https://img.shields.io/travis/com/microservices/node/master.svg?style=for-the-badge)](https://travis-ci.com/microservices/node)
 
-An OMG template for NodeJS + ExpressJS.
+An OMS template for NodeJS + ExpressJS.
 
-## Usage
+## Setup
 
-```coffee
-# Storyscript
-your_service message name: 'Service'
-# {"message": "Hello Service"}
+Latest LTS version of Node.js 10.
+[See Release](https://nodejs.org/en/about/releases/)
+
+```sh
+yarn
+```
+
+First, install the Commitizen cli tools:
+
+```shell
+npm install commitizen -g
+```
+
+Next, initialize your project to use the `cz-conventional-changelog` adapter by
+typing
+
+```sh
+commitizen init cz-conventional-changelog --yarn --dev --exact
 ```
 
 ## Test
 
-## OMG Test Runner
+## OMS Test Runner
 
 ```sh
 > omg run message -a name=Service
