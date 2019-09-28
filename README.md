@@ -8,7 +8,7 @@ An OMS template for NodeJS + ExpressJS.
 ## Setup
 
 Latest LTS version of Node.js 10.
-[See Release](https://nodejs.org/en/about/releases/)
+[See Releases](https://nodejs.org/en/about/releases/).
 
 ```sh
 yarn
@@ -46,10 +46,4 @@ yarn run commit
 ✔ Health check passed
 ✔ Ran action: `message` with output: {"message":"Hello Service"}
 ✔ Stopped Docker container: 1c8a91688261
-```
-
-## Curl Test Request
-
-```sh
-curl -X POST -d "name=Service" http://localhost:8080/message
 ```

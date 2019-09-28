@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 
-const port = process.env.PORT || 8081
+const port = process.env.PORT || 8080
 
 app.post('/message', (req, res) => {
   const { name } = req.body

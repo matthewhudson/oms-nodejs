@@ -8,10 +8,10 @@
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "commit": "npx git-cz",
-    "oms:run": "omg run --raw message -a name='World'"
+    "lint": "standard"
   },
   "author": "Matthew Hudson",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/microservices/node/issues"
   },
@@ -25,7 +25,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.0.2"
+    "cz-conventional-changelog": "3.0.2",
+    "standard": "^14.3.1"
   },
   "config": {
     "commitizen": {
