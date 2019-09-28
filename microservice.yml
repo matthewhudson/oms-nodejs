@@ -8,7 +8,7 @@ info:
     url: https://opensource.org/licenses/Apache-2.0
 lifecycle:
   startup:
-    command: ["node", "/app/src/index.js"]
+    command: ['node', '/app/src/index.js']
 health:
   http:
     path: /health

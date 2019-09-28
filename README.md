@@ -14,7 +14,7 @@ Latest LTS version of Node.js 10.
 yarn
 ```
 
-First, install the Commitizen cli tools:
+First, install the [Commitizen cli](https://github.com/commitizen/cz-cli) tools:
 
 ```shell
 npm install commitizen -g
@@ -25,6 +25,12 @@ typing
 
 ```sh
 commitizen init cz-conventional-changelog --yarn --dev --exact
+```
+
+Use the following to replace `git commit`:
+
+```sh
+yarn run commit
 ```
 
 ## Test
