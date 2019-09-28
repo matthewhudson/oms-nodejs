@@ -1,14 +1,12 @@
 #!/usr/bin/env node
 
-require('dotenv').config()
-
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 
-const port = process.env.PORT
+const port = process.env.PORT || 8081
 
 app.post('/message', (req, res) => {
   const { name } = req.body
@@ -17,4 +15,6 @@ app.post('/message', (req, res) => {
 
 app.get('/health', (req, res) => res.send('OK'))
 
-app.listen(port, () => console.log(`Listening on localhost: ${port}!`))
+app.listen(port, () =>
+  console.log(`Listening on localhost: http://localhost:${port}`)
+)
