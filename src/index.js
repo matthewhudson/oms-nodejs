@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 
+require('dotenv').config()
+
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT
 
 app.post('/message', (req, res) => {
   const { name } = req.body
