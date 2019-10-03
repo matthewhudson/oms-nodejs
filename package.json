@@ -16,16 +16,14 @@
     "url": "https://github.com/microservices/node/issues"
   },
   "homepage": "https://github.com/microservices/node#readme",
-  "keywords": [
-    "microservice",
-    "omg"
-  ],
+  "keywords": ["microservice", "omg"],
   "dependencies": {
     "body-parser": "1.19.0",
     "express": "4.17.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.0.2",
+    "nodemon": "1.19.3",
     "standard": "14.3.1"
   },
   "config": {
