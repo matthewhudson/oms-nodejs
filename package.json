@@ -2,7 +2,7 @@
   "name": "oms-nodejs",
   "private": true,
   "version": "0.0.1",
-  "description": "An OMS service using Nodejs",
+  "description": "An Open Microservice template for Node.js",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
@@ -13,19 +13,17 @@
   "author": "Matthew Hudson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/microservices/node/issues"
+    "url": "https://github.com/matthewhudson/oms-nodejs/issues"
   },
-  "homepage": "https://github.com/microservices/node#readme",
-  "keywords": [
-    "microservice",
-    "omg"
-  ],
+  "homepage": "https://github.com/matthewhudson/oms-nodejs#readme",
+  "keywords": ["microservice", "oms"],
   "dependencies": {
     "body-parser": "1.19.0",
     "express": "4.17.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.0.2",
+    "nodemon": "1.19.4",
     "standard": "14.3.1"
   },
   "config": {
