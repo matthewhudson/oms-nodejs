@@ -1,7 +1,7 @@
 # Open Microservice template for NodeJS
 
 [![Build Status](https://travis-ci.com/matthewhudson/oms-nodejs.svg?branch=master)](https://travis-ci.com/matthewhudson/oms-nodejs)
-![](https://github.com/actions/matthewhudson/oms-nodejs/.github/workflows/oms.yml/badge.svg)
+[![OMS Validation](https://github.com/matthewhudson/oms-nodejs/.github/workflows/oms.yml/badge.svg)](https://github.com/matthewhudson/oms-nodejs/.github/workflows/oms.yml/badge.svg)
 
 
 An Open Microservices template for NodeJS + ExpressJS.
