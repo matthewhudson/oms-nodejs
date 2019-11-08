@@ -1,9 +1,10 @@
-# Microservice template for NodeJS
+# Open Microservice template for NodeJS
 
-![Microservice](https://img.shields.io/badge/microservice-ready-brightgreen.svg?style=for-the-badge)
-[![Build status](https://img.shields.io/travis/com/microservices/node/master.svg?style=for-the-badge)](https://travis-ci.com/microservices/node)
+[![Build Status](https://travis-ci.com/matthewhudson/oms-nodejs.svg?branch=master)](https://travis-ci.com/matthewhudson/oms-nodejs)
+![](https://github.com/actions/matthewhudson/oms-nodejs/.github/workflows/oms.yml/badge.svg)
 
-An OMS template for NodeJS + ExpressJS.
+
+An Open Microservices template for NodeJS + ExpressJS.
 
 ## Setup
 
@@ -38,7 +39,7 @@ yarn run commit
 ## OMS Test Runner
 
 ```sh
-> omg run message -a name=Service
+> oms run message -a name=Service
 ℹ Building Docker image
 …
 ✔ Built Docker image with name: omg/l2hvbwuvc2vil2fzew5jes9ydwj5
