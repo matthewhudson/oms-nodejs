@@ -1,20 +1,16 @@
-#!/usr/bin/env node
-
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 
-const port = process.env.PORT || 8080
+const { PORT = 8080 } = process.env.PORT
 
-app.post('/message', (req, res) => {
+app.post('/', (req, res) => {
   const { name } = req.body
   res.json({ message: `Hello ${name}` })
 })
 
 app.get('/health', (req, res) => res.send('OK'))
 
-app.listen(port, () =>
-  console.log(`Listening on localhost: http://localhost:${port}`)
-)
+app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`))
