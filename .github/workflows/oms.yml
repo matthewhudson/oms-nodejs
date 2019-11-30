@@ -1,5 +1,11 @@
 name: Open Microservices
-on: [push]
+on:
+  push:
+    # Publish `master` as Docker `latest` image.
+    branches:
+      - master
+  # Run tests for any PRs.
+  pull_request:
 jobs:
   validate:
     runs-on: ubuntu-latest
